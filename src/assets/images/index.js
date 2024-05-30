@@ -1,15 +1,12 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import BukTrips from './BukTrips.png'
+import Qwegle from './qwegle.jpeg'
+import Tetra from './TetraTrion.png'
 import logo from './logo.svg'
-
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    BukTrips,
+    logo,
+    Qwegle,
+    Tetra
 }

@@ -1,4 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { BukTrips } from "../assets/images";
+import { Qwegle } from "../assets/images";
+import { Tetra } from "../assets/images";
 import {
     car,
     contact,
@@ -111,24 +113,24 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Frontend Developer Intern",
+        company_name: "BukTrips",
+        icon: BukTrips,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Integrated Google Maps API for gym search and directions, and utilized REST API endpoints for seamless communication.",
+            "Build and Deployed A event Page for Marketing purpose from scarth it was from Figma to code."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Software Developer Trainee",
+        company_name: "Tetra-Trion",
+        icon: Tetra,
+        iconBg: "#097969",
+        date: "Jun 2023 - Dec 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -137,31 +139,18 @@ export const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "FullStack Devloper Engineer / Freelance",
+        company_name: "Qwegle Technology",
+        icon: Qwegle,
+        iconBg: "#702963",
+        date: " Jan 2024 - March 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Engineered & launched a responsive website for Odisha Urban Academy, resulting in a 20% increase in user engagement.",
+            "Deployed a complete CMS web app, reducing content management time by 30% and enabling seamless updates. Collaborated with the Government of Odisha to deploy the website on their OCAC server, ensuring accessibility to over 10,000 users.",
+            "Built a web application named Price Wise using Next.js, Puppeteer, and Cheerio, enabling it to scrape the internet for the lowest prices of products."
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  
 ];
 
 export const socialLinks = [
@@ -173,12 +162,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/sumit1125',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/sumittiwari2611',
     }
 ];
 
@@ -186,43 +175,44 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Travel-Advisor',
+        description: 'Developed a web application THat Lets User Find Hotels, Resturants, Places to Hang-Out',
+        link: 'https://classy-blini-65bb96.netlify.app/',
+        
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Odisha Urban Academy',
+        description: 'Build and Designed this site for Odisha Goverment which is used for to give out information how the BMC People are trainned.Worked Under A IAS Officer adn Honarable Chief Minister Inagorated Wesbite Live',
+        link: 'https://oua.odisha.gov.in/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'CabonOut',
+        description: 'Designed and built A WebSite for A floor Lighting Company which installs lights inside the foor path roads.',
+        link: 'hhttps://carbonout.in/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Full stack Gym Wesbite',
+        description: 'Engineed the ths site with APIs MYSQL JAVSCRIPT REACT NODE.JS fro the gym company FIT-GYM.',
+        link: 'https://64fd85d2fa00dc7e0bfbbfb6--silver-stroopwafel-ea9da4.netlify.app/',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'TETRA_LEARN',
+        description: 'A website where people learn About Development and IT Services Here Students Learn and gets trained Build Applications and get Hired I was one of the Teachers over here.',
+        link: 'https://tetralearn.com/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Youtube Clone',
+        description: 'Build and my know Youtube CLone using APIS which free avaliable on markets it took time for me to copy this site. and thought me a lot.',
+        link: 'https://github.com/sumit1125/youtube-clone',
     }
 ];
